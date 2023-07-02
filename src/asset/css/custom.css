@@ -1,0 +1,70 @@
+.topFixedBanner{
+
+     background-image: url("../image/banner.jpg");
+     min-height: 550px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.topBannerOverly{
+
+     position: absolute;
+     min-height: 550px;
+     width: 100%;
+     background: rgba(91, 132, 219, 0.3);
+
+}
+
+.topContent{
+
+     padding-top: 15em;
+}
+
+
+.topTitle{
+     position: absolute;
+     width: 909px;
+     height: 180px;
+     left: 15%;
+     top: 236px;
+
+     font-family: 'Montserrat', monospace;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 48px;
+     line-height: 62px;
+     /* or 130% */
+
+     display: flex;
+     align-items: center;
+     text-align: center;
+
+     color: #FFFFFF;
+
+}
+.topSubTitle{
+     position: absolute;
+     width: 845px;
+     height: 26px;
+     left: 22%;
+     top: 432px;
+
+     font-family: 'Montserrat', monospace;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 22px;
+     line-height: 26px;
+     /* identical to box height, or 118% */
+
+     display: flex;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.35em;
+
+     color: #FFFFFF;
+
+} 
+

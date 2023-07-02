@@ -1,0 +1,71 @@
+body{
+     background-image: url("../asset/image/bg-1.jpg");
+}
+
+.topFixedPage{
+     background-image: url("../asset/image/page.jpg");
+     min-height: 250px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.topPageOverlay{
+     position: absolute;
+     min-height: 250px;
+     width: 100%;
+     background: rgba(19, 1, 102, 0.7);
+}
+
+.topPageTitle{
+     font-family: 'Montserrat',sans-serif;
+     font-weight: 700;
+     color: #ffee00;
+     font-size: 40px;
+}
+
+.topContentPage{
+     margin-top: 8em;
+}
+.bg{
+     background: url('1.png');
+     height: 100vh;
+     background-position: center;
+     background-size: cover;
+     backdrop-filter: blur(25px);
+     position: relative;
+}
+.bg::after{
+     content:'' ;
+     backdrop-filter: blur(5px);
+     position: absolute;
+     width: 100%;
+     height: 100%;z-index: -1;
+}
+.center{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+
+}
+.glass{
+     /* From https://css.glass */
+     height: 350px;
+     width: 500px;
+     border-radius: 12px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.radius{
+     border-radius: 20px !important;
+}
+.ylo{
+     color: #FFD900;
+}
